@@ -5,9 +5,15 @@
 pip install numpy
 ```
 
-### 数据集下载
+### 数据集和模型下载
 
 [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)下载到``cifar-10-batches-py``目录下
+
+可以用git lfs下载数据集和模型权重
+```
+git lfs install
+git lfs fetch -all
+```
 
 ### 训练
 
